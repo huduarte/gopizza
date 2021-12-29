@@ -12,6 +12,7 @@ export const SignIn = (): JSX.Element => {
         autoCorrect={false}
         autoCapitalize="none"
       />
+
       <Input placeholder="Senha" type="secondary" secureTextEntry />
     </Container>
   );
