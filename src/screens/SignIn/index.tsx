@@ -1,4 +1,5 @@
 import { Input } from "@components/Input";
+import { Button } from "@components/Button";
 import React from "react";
 
 import { Container } from "./styles";
@@ -14,6 +15,8 @@ export const SignIn = (): JSX.Element => {
       />
 
       <Input placeholder="Senha" type="secondary" secureTextEntry />
+
+      <Button title="Entrar" type="secondary" />
     </Container>
   );
 };

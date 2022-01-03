@@ -741,6 +741,8 @@ PODS:
     - Firebase/Storage (= 8.10.0)
     - React-Core
     - RNFBApp
+  - RNGestureHandler (2.1.0):
+    - React-Core
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -787,6 +789,7 @@ DEPENDENCIES:
   - "RNFBAuth (from `../node_modules/@react-native-firebase/auth`)"
   - "RNFBFirestore (from `../node_modules/@react-native-firebase/firestore`)"
   - "RNFBStorage (from `../node_modules/@react-native-firebase/storage`)"
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -892,6 +895,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/firestore"
   RNFBStorage:
     :path: "../node_modules/@react-native-firebase/storage"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -954,6 +959,7 @@ SPEC CHECKSUMS:
   RNFBAuth: fd6cbf93302641dbe20045a44e64c1fa3d4eff02
   RNFBFirestore: 335dcbdb91786a892dd76831373f9794ac947e3b
   RNFBStorage: 77eafd785a3a2d4e4ceaac707ebc1abe57537773
+  RNGestureHandler: e5c7cab5f214503dcefd6b2b0cefb050e1f51c4a
   Yoga: e6ecf3fa25af9d4c87e94ad7d5d292eedef49749
 
 PODFILE CHECKSUM: 97b29effe7d133c33effcb7ce737bb2cc208fa1b
