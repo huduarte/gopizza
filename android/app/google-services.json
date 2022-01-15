@@ -29,6 +29,13 @@
             {
               "client_id": "12938055638-um388hj5jn14hneklcqlc4kel2fqfj7q.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "12938055638-q5jhudpnc02k7thunl1nolmksl2tvuk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.name.gopizza"
+              }
             }
           ]
         }

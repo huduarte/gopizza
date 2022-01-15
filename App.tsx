@@ -8,6 +8,8 @@ import { ThemeProvider } from "styled-components";
 import theme from "./src/theme";
 import { SignIn } from "@screens/SignIn";
 
+import { AuthProvider } from "@hooks/auth";
+
 export default function App() {
   const [fontsLoaded] = useFonts({
     DMSans_400Regular,
@@ -21,7 +23,9 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar style="light" translucent backgroundColor="transparent" />
-      <SignIn />
+      <AuthProvider>
+        <SignIn />
+      </AuthProvider>
     </ThemeProvider>
   );
 }
